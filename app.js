@@ -6,5 +6,5 @@ const mongoConnect = require('./src/db');
 let botProgram = require('./src/bot');
 
 mongoConnect(async () => {
-    await botProgram.start();
+    await botProgram.start();        
 });
